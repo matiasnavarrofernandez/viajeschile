@@ -1,0 +1,26 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+   background-color: black;
+   color: white;
+   
+   
+
+}
+
+/* navbar */
+.navbar{
+    background-color: 0;
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+}
+
+.navbar-brand{
+    font-family: "Oswald";
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#quienes-somos{
+    font-family: 'Oswald', sans-serif;
+}
