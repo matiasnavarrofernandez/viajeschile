@@ -29,3 +29,20 @@ body{
 #quienes-somos{
     font-family: 'Oswald', sans-serif;
 }
+
+.card-img-top{
+    aspect-ratio: 5/4;
+}
+
+.footer-wrap{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Oswald";
+}
+
+.nav-black{
+    background-color: black;
+    opacity: 0.9;
+    color: white;
+}

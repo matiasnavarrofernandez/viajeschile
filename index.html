@@ -93,38 +93,57 @@ rel="stylesheet">
     </header> 
 
       <!-- ¿Quienes somos? 
-        - fw-bold es para engrosar letras
-     -->
-
-      <section id="quienes-somos " class="pt-5 container d-none d-sm-block">
-        <h1 class="text-center fw-bold">
-            ¿QUIENES SOMOS?
-        </h1>
-        <hr>
-        <div class="row">
-            <div class="col-4 pt-5">
-                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                     Dolore aperiam tenetur repudiandae temporibus quod ex 
-                     delectus tempore numquam? Error possimus fugit omnis iusto 
-                     ea beatae facere nesciunt, itaque at impedit!</p>
+        - fw-bold es para engrosar letras 
+        - "d-none d-sm-block" para que desaparesca en version mobil -->
+<section class="d-none d-sm-block" id="quienes-somos">
+    <div class="container">
+        <div class="my-5">
+            <h4 class="text-center mb-4 fw-bold">
+                ¿QUIENES SOMOS?
+            </h4>
+              <hr class="bg-info mb-4">
+        </div>
+        <div class="row pt-3">
+            <div class="col-md-4">
+                <div class="text-center bg-info">
+                    <p><i class="fa-solid fa-plane"></i></p>
+                </div>
+                <p class="text-center">
+                    Lorem ipsum dolor sit amet consectetur adipisicing
+                     elit. Expedita voluptatibus nemo ullam! Corrupti, 
+                     recusandae omnis, harum itaque eum ipsum eaque
+                      mollitia vel ipsam officia eligendi, blanditiis 
+                      autem veritatis culpa aut!
+                </p>
             </div>
-            <div class="col-4 pt-5">
-                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                     Dolore aperiam tenetur repudiandae temporibus quod ex 
-                     delectus tempore numquam? Error possimus fugit omnis iusto 
-                     ea beatae facere nesciunt, itaque at impedit!</p>
+            <div class="col-md-4">
+                <p class="text-center">
+                    Lorem ipsum dolor sit amet consectetur adipisicing
+                     elit. Expedita voluptatibus nemo ullam! Corrupti, 
+                     recusandae omnis, harum itaque eum ipsum eaque
+                      mollitia vel ipsam officia eligendi, blanditiis 
+                      autem veritatis culpa aut!
+                </p>
+                <div class="text-center bg-info">
+                    <p><i class="fa-solid fa-mountain-sun"></i></p>
+                </div>
             </div>
-            <div class="col-4 pt-5">
-                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                     Dolore aperiam tenetur repudiandae temporibus quod ex 
-                     delectus tempore numquam? Error possimus fugit omnis iusto 
-                     ea beatae facere nesciunt, itaque at impedit!</p>
+            <div class="col-md-4">
+                <div class="text-center bg-info">
+                    <p><i class="fa-solid fa-map"></i></p>
+                </div>
+                <p class="text-center">
+                    Lorem ipsum dolor sit amet consectetur adipisicing
+                     elit. Expedita voluptatibus nemo ullam! Corrupti, 
+                     recusandae omnis, harum itaque eum ipsum eaque
+                      mollitia vel ipsam officia eligendi, blanditiis 
+                      autem veritatis culpa aut!
+                </p>
             </div>
-            
-
         </div>
 
-      </section>
+    </div>
+</section>
 
       <!-- Destacados -->
       <section class="my-5" id="destacados" >
@@ -132,10 +151,118 @@ rel="stylesheet">
             <h4 class="text-center my-5 fw-bold">DESTACADOS</h4>
             <hr class="bg-info my-4">
         </div>
-       
-       
+       <div class="container">
+          <div class="row my-5">
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card" >
+                    <img src="assets/img/card1.jpg" class="card-img-top" alt="sur">
+                    <div class="card-body bg-info">
+                      <h5 class="card-title">Sur</h5>
+                      <p class="card-text">Some quick example text to build on 
+                        the card title and make up the bulk of the card's content.
+                      </p>
+                    </div>
+                  </div>
+            </div> 
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card" >
+                    <img src="assets/img/card2.jpg" class="card-img-top" alt="sur">
+                    <div class="card-body bg-info">
+                      <h5 class="card-title">Norte</h5>
+                      <p class="card-text">Some quick example text to build on 
+                        the card title and make up the bulk of the card's content.
+                      </p>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card" >
+                    <img src="assets/img/card3.jpg" class="card-img-top" alt="sur">
+                    <div class="card-body bg-info">
+                      <h5 class="card-title">Desierto</h5>
+                      <p class="card-text">Some quick example text to build on 
+                        the card title and make up the bulk of the card's content.
+                      </p>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card" >
+                    <img src="assets/img/card4.jpg" class="card-img-top" alt="sur">
+                    <div class="card-body bg-info">
+                      <h5 class="card-title">Bosque</h5>
+                      <p class="card-text">Some quick example text to build on 
+                        the card title and make up the bulk of the card's content.
+                      </p>
+                    </div>
+                  </div>
+            </div>
+          </div>
+       </div>      
       </section>
     
+      <!-- Contacto --> 
+    
+      <section class="container-fluid my-4 bg-green ">
+        <div class="container pt-3">
+            <h4 class="text-center  fw-bold ">CONTACTO</h4>
+            <hr class="bg-info my-4">
+            <form>
+                <div class="form-group mb-3">
+                    <p>Nombre</p>
+                    <input class="form-control " type="text" 
+                    placeholder="Escribe tu nombre">
+                </div> 
+
+                <div class="form-group mb-3">
+                    <p>Asunto</p>
+                    <input class="form-control" type="asunto" 
+                    placeholder="Escribe el asunto">
+                </div>
+
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                    <textarea class="form-control" placeholder="Escribe tu mensaje" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+
+                <div class="text-center mt-3 pb-4">
+                    <button type="submit" class="btn btn-info text-white btn-lg px-4">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+      <!-- Footer --> 
+      <footer class="container-fluid bg-info py-4 mt-5">
+        <div class="footer-wrap">
+            <div>
+                <p class="fs-2"><img width="40px" src="assets/img/viajes.svg" alt="imagen-footer"> viaje chile</p>
+            </div>
+            <div>
+                  <i 
+                  data-bs-toggle="tooltip" 
+                  data-bs-placement="top" 
+                  data-bs-title="instagram"
+                  class="fa-brands fa-instagram fa-2x mx-2"></i>
+
+                  <i 
+                  data-bs-toggle="tooltip" 
+                  data-bs-placement="top" 
+                  data-bs-title="twitter"
+                  class="fa-brands fa-twitter fa-2x mx-2"></i>
+
+                  <i 
+                  data-bs-toggle="tooltip" 
+                  data-bs-placement="top" 
+                  data-bs-title="facebook"
+                  class="fa-brands fa-facebook fa-2x mx-2"></i>
+
+            </div>
+        </div>
+      </footer>
 
     <!-- JavaScript -->
 <script 
