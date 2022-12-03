@@ -34,11 +34,17 @@ rel="stylesheet">
 
 <body>
 
-    <!-- Navbar <img src="assets/img/viajes.svg" alt="imagen-del-navbar"> -->
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    <!-- Navbar (fixed-top es para que el navbar baje con el scroll) -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container">
-          <a class="navbar-brand" href="#">Viajes Chile</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <a class="navbar-brand" href="#"> 
+            <img width="30px" src="assets/img/viajes.svg" alt="imagen-de-navbar"> 
+            Viajes Chile
+        </a>
+          <button class="navbar-toggler" type="button" 
+          data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+          aria-controls="navbarSupportedContent" aria-expanded="false" 
+          aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -53,7 +59,7 @@ rel="stylesheet">
                     <a class="nav-link active" aria-current="page" href="#destacados">Destacados</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#contactos">Contactos</a>
+                    <a class="nav-link active" aria-current="page" href="#contacto">Contacto</a>
                   </li>
             </ul>
           </div>
@@ -61,6 +67,7 @@ rel="stylesheet">
       </nav>
 
       <!-- Carousel -->
+    <header id="inicio">     
       <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -83,6 +90,7 @@ rel="stylesheet">
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+    </header> 
 
       <!-- ¿Quienes somos? 
         - fw-bold es para engrosar letras
